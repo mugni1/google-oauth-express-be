@@ -6,5 +6,6 @@ app.use(express.json())
 
 app.get("/", (req: Request, res: Response) => { res.json({ message: "Miau Miau" }) })
 app.use(authRouter)
+app.listen(() => console.log("Server running"))
 
 export default app;
