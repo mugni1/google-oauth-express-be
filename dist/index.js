@@ -4,5 +4,4 @@ const app = express();
 app.use(express.json());
 app.get("/", (req, res) => { res.json({ message: "Miau Miau" }); });
 app.use(authRouter);
-const PORT = process.env.PORT;
 export default app;
