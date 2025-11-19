@@ -6,7 +6,4 @@ app.get("/", (req: Request, res: Response) => { res.json({ message: "Miau Miau" 
 app.use(express.json())
 app.use(authRouter)
 
-// Vercel Serverless Handler
-export default function handler(req: VercelRequest, res: VercelResponse) {
-  app(req, res);
-}
+export default app;
