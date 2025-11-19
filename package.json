@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "bun --watch src/index.ts",
+    "vercel-build": "curl -fsSL https://bun.sh/install | bash && bun run src/index.ts",
     "start": "bun src/index.ts",
     "build": "tsc"
   },
