@@ -1,4 +1,4 @@
-import { authClient, authGoogleUrl } from "@/configs/oauth"
+import { authClient, authGoogleUrl } from "../configs/oauth"
 import { Request, Response } from "express"
 import { google } from "googleapis"
 

@@ -1,5 +1,5 @@
-import { authGoogleUrl } from "@/configs/oauth";
-import { googleCallback } from "@/controllers/auth.controller";
+import { authGoogleUrl } from "../configs/oauth";
+import { googleCallback } from "../controllers/auth.controller";
 import { Response, Router } from "express";
 
 const router = Router();
